@@ -1,0 +1,55 @@
+#
+# The structure of this file has been taken from multiple sources with the goal that
+# no developer will have to mess around with his or her core.autocrlf settings.
+#
+# Sources that have been used to build this file are:
+# - https://help.github.com/en/articles/configuring-git-to-handle-line-endings#platform-all
+# - https://git-scm.com/docs/gitattributes
+#
+# Although it doesn't explain anything it does help with generating the gitattributes file
+# for your project. Much like github/gitignore.
+#	https://gitattributes.io/
+#
+# To make sure that we catch most of the stuff in this repo I did take a look at what we
+# actually have. This was done using the command
+#
+# $ find . -type f -and -printf "%f\n" | egrep -io '\.[^.]*$' | sort | uniq -c | sort -rn
+#
+
+*		text=auto encoding=UTF-8
+*.cs		text=auto
+*.xml		text=auto
+*.xaml		text=auto
+*.json		text=auto eol=lf
+*.txt		text=auto
+*.sql		text=auto eol=lf
+
+# Specify which files are always binary
+*.pfx		binary
+*.dll		binary
+*.exe		binary
+
+# *nix specific files
+*.sh		text eol=lf
+*.env       text eol=lf
+.env.*      text eol=lf
+.env        text eol=lf
+
+# MS specific files
+*.bat		text eol=crlf
+
+# Suggestions taken from dotnet-core repo: https://github.com/dotnet/core/blob/master/.gitattributes
+*.sln       merge=binary
+*.csproj    merge=binary
+*.vbproj    merge=binary
+*.vcxproj   merge=binary
+*.vcproj    merge=binary
+*.dbproj    merge=binary
+*.fsproj    merge=binary
+*.lsproj    merge=binary
+*.wixproj   merge=binary
+*.modelproj merge=binary
+*.sqlproj   merge=binary
+*.wwaproj   merge=binary
+
+

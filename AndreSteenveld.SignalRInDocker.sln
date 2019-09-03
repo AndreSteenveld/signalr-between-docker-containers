@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndreSteenveld.SignalRInDocker.Emitter", "AndreSteenveld.SignalRInDocker.Emitter\AndreSteenveld.SignalRInDocker.Emitter.csproj", "{63489340-C6F2-461F-A29E-91DBFDD8DC0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreSteenveld.SignalRInDocker.Emitter", "AndreSteenveld.SignalRInDocker.Emitter\AndreSteenveld.SignalRInDocker.Emitter.csproj", "{63489340-C6F2-461F-A29E-91DBFDD8DC0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndreSteenveld.SignalRInDocker.Receiver", "AndreSteenveld.SignalRInDocker.Receiver\AndreSteenveld.SignalRInDocker.Receiver.csproj", "{A5A55EAE-7095-468A-A344-FEF49A8AE096}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreSteenveld.SignalRInDocker.Receiver", "AndreSteenveld.SignalRInDocker.Receiver\AndreSteenveld.SignalRInDocker.Receiver.csproj", "{A5A55EAE-7095-468A-A344-FEF49A8AE096}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndreSteenveld.SignalRInDocker.Hub", "AndreSteenveld.SignalRInDocker.Hub\AndreSteenveld.SignalRInDocker.Hub.csproj", "{FF0A0B2B-53CF-4455-9318-8ED0C6F24CDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreSteenveld.SignalRInDocker.MessageHub", "AndreSteenveld.SignalRInDocker.Hub\AndreSteenveld.SignalRInDocker.MessageHub.csproj", "{FF0A0B2B-53CF-4455-9318-8ED0C6F24CDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

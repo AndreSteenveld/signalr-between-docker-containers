@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace AndreSteenveld.SignalRInDocker.Hub
+namespace AndreSteenveld.SignalRInDocker.MessageHub
 {
 	public class Program
 	{

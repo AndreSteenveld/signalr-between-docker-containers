@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Local process": {
+        "commandName": "Project",
+        "commandLineArgs": "\"http://localhost:5000/MessageHub\""
+    }
+  }
+}
